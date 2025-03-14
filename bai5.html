@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  function hienthiFibonacci(number) {
+    let a = 0;
+    let b = 1;
+    let temp;
+    document.write("10 số trong dãy Fibonacci đầu tiên là: ")
+    for (let i = 0; i < number; i++) {
+      document.write(' ' + a)
+      temp = a + b;
+      a = b;
+      b = temp;
+    }
+  }
+  hienthiFibonacci(10)
+</script>
